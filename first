@@ -1,0 +1,28 @@
+
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>WDD130 | Home</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            <header>
+                <nav>
+                <a href="wwr/index.html">White Water Rafting Website</a>
+                 <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
+                 <a href="postioning.html">Positioning activity</a>
+                 <a href="#">Personal Website</a>
+                 <a href="#">Personal Siteplan</a>
+                 </nav>
+            </header>
+            <main>
+                <h1>Seth Brown</h1>
+                <img src="IMG_1968.JPG" alt="Me and my Family">
+                <p>What degree and Career path are you headed down?</p>
+                <p>The yellow brick road<p/>
+            </main>
+        </body>
+        </html>
