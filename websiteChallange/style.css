@@ -1,0 +1,36 @@
+#body {
+    background-color: #5ca0d7;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
+
+ol {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.small{
+    font-size: 8px;
+}
+
+.medium{
+    font-size: 100px;
+}
+
+.large{
+    font-size: 20px;
+}
+
+.darker{
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+.cormorant{
+    font-family: "Cormorant Garamond", serif;
+}
