@@ -1,0 +1,22 @@
+.icon{
+    border: 10px solid #444545;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    margin: 2rem 5rem;
+    
+    
+}
+
+#body{
+    margin: 0;
+    background-color: #727372;
+}
+
+.hero{
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
