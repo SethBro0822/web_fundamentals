@@ -1,9 +1,9 @@
 .icon{
-    border: 10px solid #444545;
-    border-radius: 50%;
-    height: 15rem;
-    width: 15rem;
-    margin: 2rem 5rem;
+    border: 10px solid #444545; /*Changes the size and color of the border*/
+    border-radius: 50%; /*Changes The border into a circle*/
+    height: 15rem; /*Changes the size of the image*/
+    width: 15rem; /*Changes the size of the image*/
+    margin: 2rem 5rem; /*Changes how much space is outside of the border*/
     
     
 }
@@ -14,9 +14,9 @@
 }
 
 .hero{
-    width: 100%;
+    width: 100%; /*Makes the image fill the screen*/
 }
 
 footer {
-    text-align: center;
+    text-align: center; /*Centers the images*/
 }
