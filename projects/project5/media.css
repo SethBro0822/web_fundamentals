@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(16, 16, 205);
+
+}
+
+.header{
+    color:white;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    
+    
+    
+}
+.woman{
+    background-color: pink;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    text-align: center;
+}
+
+.man{
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+footer{
+    background-color: rgb(16, 16, 205);
+}
