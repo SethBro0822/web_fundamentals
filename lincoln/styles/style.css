@@ -1,15 +1,21 @@
+/* Html for the main webpage and the header/footer */
+
 * {
   box-sizing: border-box;
 }
 
-html, body {
+body {
+  display:flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  min-height:100vh;
 }
 
 #top{
-    max-width: 1600px;
+    max-width: 2400px;
+    max-height: 24000px;
     margin:0;
 }
 a{
@@ -88,6 +94,7 @@ a:hover{
 
   main{
     background-color: #A9A785;
+    flex: 1;
   }
 
   .mainImg1{
@@ -180,6 +187,7 @@ hr {
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    clear: both;
 }
 
 footer p{
@@ -212,4 +220,45 @@ footer p{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 10px;
+}
+.socialLinks a:hover{
+  background: none;
+}
+
+.footerDiv a:hover{
+  background: none;
+}
+
+/* Html fot the meet the animals page */
+#CowTitle{
+  padding-top: 10px;
+}
+
+.whitecow,.horses,.chickens{
+  width: 200px;
+  height: auto;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.animalsH1{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+.animalsP{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.chickensP{
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.imgs{
+  min-height:200px;
 }
