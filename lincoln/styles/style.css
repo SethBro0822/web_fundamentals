@@ -262,3 +262,47 @@ footer p{
 .imgs{
   min-height:200px;
 }
+
+/* CSS for the meet the team page */
+.boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+
+}
+.teamImg{
+  width: 170px;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.boxesChild{
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 340px;
+  max-height: 480px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  
+}
+.boxesChild:hover{
+  transform: scale(1.3);
+  background-color: #A9A785;
+}
+.name{
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.text{
+  padding-left: 10px;
+  padding-right: 10px;
+}
