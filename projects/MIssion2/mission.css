@@ -1,0 +1,25 @@
+img {
+    width: 150px;
+    height: auto;
+    padding-top: 50px;
+}
+
+.blue{
+    color: rgb(83, 189, 225);
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    width: 800px;
+    display: flex;  
+    align-items: center;      
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NoMove{
+    white-space: nowrap; 
+    margin: 10px 0;}
